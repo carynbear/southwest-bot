@@ -79,7 +79,8 @@ test('getFlights previous date points', async t => {
     from: 'SEA',
     to: 'CLE',
     departDate: yesterday,
-    isPointsBooking: true
+    isPointsBooking: true,
+    passengerCount: 1
   };
   const flights = await getFlights(args);
 
