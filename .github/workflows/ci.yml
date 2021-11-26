@@ -16,5 +16,7 @@ jobs:
           cache: 'npm'
       - run: npm install
       - run: npm test
+        continue-on-error: true
         env:
           MONGODB_URI: mongodb://localhost:27017/swa
+      - run: npm run lint
