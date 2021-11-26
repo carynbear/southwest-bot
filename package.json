@@ -11,8 +11,8 @@
   "private": true,
   "engines": {
     "node": "^17.1.0",
-    "npm": "^8.1.2",
-    "yarn": "^1.22.17"
+    "npm": "^8.1.0",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "develop": "nodemon --trace-warnings index.js",
@@ -38,7 +38,7 @@
     "lodash.clonedeep": "^4.5.0",
     "lodash.merge": "^4.6.2",
     "mailgun-js": "^0.22.0",
-    "mongoose": "^5.6.9",
+    "mongoose": "^5.13.13",
     "node-fetch": "^2.6.1",
     "npm": "^6.10.3",
     "package.json": "^2.0.1",
