@@ -1,6 +1,6 @@
 {
   "name": "southwest-price-drop-bot",
-  "version": "3.5.0",
+  "version": "1.21.1",
   "description": "Bot that watches Southwest flights for price drops.",
   "author": "Sam Yun",
   "license": "MIT",
@@ -58,6 +58,6 @@
   "devDependencies": {
     "nodemon": "^2.0.7",
     "semistandard": "^16.0.0",
-    "yarn": "^1.22.10"
+    "yarn": "1.22"
   }
 }
