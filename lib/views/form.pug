@@ -138,7 +138,7 @@ mixin form(alert)
               name='toEmail'
               type='email'
               disabled=!mgIsEnabled
-              value=(alert && alert.toEmail || undefined)
+              value=(alert && alert.toEmail || auth.user || undefined)
             )
             label.mdl-textfield__label(for='toEmail') Email
             span.help Optional, email address to email alert, e.g.
